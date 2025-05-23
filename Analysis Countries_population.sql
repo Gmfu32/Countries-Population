@@ -52,25 +52,29 @@ order by Population_2023 desc limit 1; -- most populated country by continent in
 select Country,Population_2023
 from countries_population
 where Continent = 'Europe'
-order by Population_2023 desc limit 1;
+order by Population_2023 desc limit 1; -- most populated country by continent in 2023
+
 
 
 select Country,Population_2023
 from countries_population
 where Continent = 'Africa'
-order by Population_2023 desc limit 1;
+order by Population_2023 desc limit 1; -- most populated country by continent in 2023
+
 
 
 select Country,Population_2023
 from countries_population
 where Continent = 'North America'
-order by Population_2023 desc limit 1;
+order by Population_2023 desc limit 1; -- most populated country by continent in 2023
+
 
 
 select Country,Population_2023
 from countries_population
 where Continent = 'South America'
-order by Population_2023 desc limit 1;
+order by Population_2023 desc limit 1; -- most populated country by continent in 2023
+
 
 
 select Country,Population_2023
